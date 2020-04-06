@@ -1,0 +1,8 @@
+<h1>result 페이지</h1>
+전체: {{ total }}
+<br>
+<br>
+단어개수세기
+{% for word, num in dic %}
+{{ word }} : {{ num }}개<br>
+{% endfor %}
